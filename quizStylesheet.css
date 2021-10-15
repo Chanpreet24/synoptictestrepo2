@@ -1,0 +1,303 @@
+:root{
+    background-color: black;
+}
+
+body{
+    color: chocolate;
+}
+
+#logInPageTitle{
+    text-align: center;
+    font-size: 100px;
+}
+
+.log-in-form{
+    border: white solid 5px;
+    width: 50%;
+    padding: 10px;
+    align-self: center;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+#logInTitle{
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+#formLogin-email{
+    margin-left: 390px;
+    margin-bottom: 10px; 
+}
+
+#formLogin-password{
+    margin-left: 390px; 
+}
+
+#logInButton{
+    margin-left: 40%;
+}
+
+Button{
+    width: 200px;
+    color: chocolate;
+    background-color: chocolate(250, 215, 17);
+    position: relative;
+    margin-top: 15px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+Button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Below is the css for the edit pages for edit player and edit 
+quiz functionality */
+
+.backButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+ }
+ 
+ #top-section{
+     min-height: 90px;
+ }
+
+ #top-section-player-admin-page{
+    min-height: 900px;
+ }
+ 
+ #edit-back-button{
+     margin-right: 600px;
+ }
+ 
+ #edit-container{
+     margin-right: 700px;
+     justify-content: center;
+     text-align: center;
+ }
+
+ 
+#addPlayerHeader{
+    text-align: center;
+    color: chocolate;
+}
+ 
+ #addPlayerTable{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+#deletePlayerHeader{
+    text-align: center;
+    color: chocolate;
+}
+
+
+
+#addQuizTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+#addQuizButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+#addQuizHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* Below is the css for the quiz display pages, this css handles the drop down and the tables for each user level */
+
+
+#header1{
+    color: chocolate;
+    margin-right: 200px;
+    margin-left: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+#header2{
+    color: chocolate;
+}
+
+#header3{
+    color: chocolate;
+}
+
+#header4{
+    color: chocolate;
+}
+
+#header5{
+    color: chocolate;
+}
+
+#header6{
+    color: chocolate;
+}
+
+#header7{
+    color: chocolate;
+}
+
+#quizTable {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table th{
+    border: 1px solid chocolate;
+}
+
+#quizTable td{
+    border: 1px solid chocolate;
+}
+
+
+#quizFormControl{
+    width: 500px;
+    margin-left: 35%;
+}
+
+#quizFormControlForStandardUsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 35%;
+}
+
+#dropDownHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+}
+
+
+
+
+
+
+
+/* The below is the css for an index page that may be required
+if we want to demonstrate a log in and a sign up together */
+
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#formLogin-email2{
+    margin-bottom: 10px;
+    margin-left: 35px;
+} 
+
+#formLogin-password2{
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+#logInButton2{
+    margin-left: 20px;
+}
+
+
+#container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main-title{
+    text-align: center;
+    color: chocolate;
+}
+
+#signuptitle{
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.sign-up-form{
+    border: white solid 5px;
+    width: 50%;
+    padding: 100px;
+    align-self: center;
+}
+
+#form-name{
+    margin-bottom: 10px;
+    text-decoration: white;
+    margin-left: 35px;
+}
+
+#form-password{
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+#form-email{
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+#ageOfPlayer{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#userLevel{
+    margin-left: 45px;
+}
+
+#signupsubmit{
+    color: chocolate;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 15px;
+}
+
+#signupsubmit:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
+
+

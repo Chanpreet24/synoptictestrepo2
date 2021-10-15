@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+#userLevelTitle{
+    color: chocolate;
+}
+
+.accordian{
+    width: 800px;
+}
+
+
+.accordian .contentBox{
+    position: relative;
+    margin: 10px 20px;
+}
+
+.accordian .contentBox .label{
+    position: relative;
+    padding: 10px;
+    background: darkblue;
+    color: chocolate;
+    font:bold;
+    cursor: pointer;
+}
+
+.accordian .contentBox .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordian .contentBox.contentBox.active .label::before{
+    content: '-';
+}
+
+
+.accordian .contentBox .content{
+    position: relative;
+    background: white;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    overflow-y: auto;
+}
+
+.accordian .contentBox.active .content{
+    height: 150px;
+    padding: 10px;
+}
