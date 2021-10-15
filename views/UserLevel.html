@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../quizStylesheet.css">
+        <link rel="stylesheet" href="../UserLevels.css">
+        <title>User Levels</title>
+    </head>
+    <body>
+            <h1 id="userLevelTitle">SELECT A LEVEL</h1> 
+
+            <button type="button" id="back-button">Back</button>
+
+        <div class="accordian">
+            <div class="contentBox">
+                <h1 class="label">Admin</h1>
+                <div class="content">
+                    <h3>These are the capabilities that an Admin user has:</h3>
+                        <li>Can create new quizzes</li>
+                        <li>Can create and delete questions</li>
+                        <li>Can add new users</li>
+                        <li>Can delete users</li>
+                </div>
+            </div>
+            <div class="contentBox">
+                <h1 class="label">Advanced</h1>
+                <div class="content">
+                    <h3>These are the capabilities that an Super User user has:</h3>
+                        <li>Can view quiz questions and answers but cannot edit them</li>
+                </div>
+            </div>
+            <div class="contentBox">
+                <h1 class="label">Standard</h1>
+                <div class="content">
+                    <h3>These are the capabilities that an Standard user has:</h3>
+                        <li>Can only view quiz questions</li>
+                        
+                </div>
+            </div>
+        </div>
+
+           
+
+
+    <script src="../UserLevels.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</body>
+</html>
