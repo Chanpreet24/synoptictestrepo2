@@ -52,7 +52,6 @@
         index: {fields: ['email', 'password']}
         });
         db2.sync(remoteDB).on('complete', function () {
-            alert('I think the hashing now works Thanks Albert');
             alert('replication from quizuser_database to quizuser_database complete');
         }).on('error', function (err) {
             console.log(err);
