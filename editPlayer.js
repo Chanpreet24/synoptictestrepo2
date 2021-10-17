@@ -48,7 +48,7 @@ function isPasswordValid() {
 }
 
 
-function progressToQuizPage() {
+function addPlayer() {
     var email = checkEmail();
     var password = isPasswordValid();
     var validationError = document.getElementById('add-Forms');
@@ -88,7 +88,7 @@ function progressToQuizPage() {
 
 
 document.querySelector('#edit-back-button').addEventListener('click', () => {
-    window.location.href = './administratorGame.html';
+    window.location.href = './administratorUser.html';
 });
 
 
