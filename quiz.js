@@ -20,7 +20,7 @@ function logInToQuiz(e){
             var role = parseData[0].role;
             console.log(role);   
             if(role == 'admin'){
-              window.location.href = "./administratorGame.html";
+              window.location.href = "./administratorUser.html";
             }else if(role == 'advanced') {
               window.location.href = "./advancedUser.html";
             }else{
